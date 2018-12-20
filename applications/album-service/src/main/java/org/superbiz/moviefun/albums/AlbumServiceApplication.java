@@ -22,6 +22,7 @@ public class AlbumServiceApplication {
         return new ServiceCredentials(vcapServices);
     }
 
+
     @Bean
     public BlobStore blobStore(
         ServiceCredentials serviceCredentials,
